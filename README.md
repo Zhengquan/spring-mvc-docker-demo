@@ -8,9 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Ulrs
 
-[Controller hello: http://localhost:8080/helloworld/hello/name](http://localhost:8080/helloworld/hello/name)
+[Controller hello: http://localhost:8080/hello/name](http://localhost:8080/hello/name)
 
-[Rest Controller hello: http://localhost:8080/helloworld/rest/hello/name](http://localhost:8080/helloworld/rest/hello/name)
+[Rest Controller hello: http://localhost:8080/rest/hello/name](http://localhost:8080/rest/hello/name)
 
 
 ## Running the tests
