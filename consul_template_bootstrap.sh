@@ -6,7 +6,23 @@
 
 /root/tsf-consul-template-docker/script/start.sh
 
+
+####### clean up files
+
+for str in ${BOOT_FILES//;/ } ; do
+    if [ "$str" = "/" ]; then
+        echo "Can not delete path /"
+        exit 1
+    fi
+
+    if [[ -n "$str" ]] && [[ -e "$str" ]] ; then
+    	echo "remove file $str on disk"
+    	rm -f $str
+    fi
+done
+
 ####### check files
+
 
 # TODO: test. delete
 # BOOT_FILES="/path/to/file1;/path/to/file2"
