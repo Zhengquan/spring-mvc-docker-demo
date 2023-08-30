@@ -4,7 +4,7 @@
 
 # consul-template ...
 
-/root/tsf-consul-template-docker/script/start.sh
+/app/tsf/consul-template/script/start.sh
 
 
 ####### clean up files
